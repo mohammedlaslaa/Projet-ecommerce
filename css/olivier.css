@@ -1,0 +1,93 @@
+.textblack{
+    color: #000000;
+}
+
+/*pase-customer-infos*/
+
+.button {
+    background-color: #000000 !important;
+}
+
+.text {
+    color: #FFFFFF;
+}
+
+.text-form {
+    color: #000000;
+}
+
+.height {
+    height: 300px;
+}
+
+.btn:focus, .btn:active {
+    box-shadow: none;
+}
+
+.opa {
+    opacity: 0.80;
+}
+
+.bord-input {
+    border-color: #000000 !important;
+}
+
+.bord-select {
+    border-radius: 10px;
+    opacity: 0.60;
+}
+
+@media screen and (min-width: 992px) {
+    #select {
+        display: none;
+    }
+    .fixed {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+    }
+    .w-80 {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .bouton {
+        display: none;
+    }
+    .w100 {
+        width: 100% !important;
+    }
+}
+
+/*page-customer-adress*/
+
+.red {
+    background-color: #FF1919;
+    border-radius: 10px;
+}
+
+.details {
+    border-radius: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.form-modif {
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    opacity: 1 !important;
+    display: none;
+}
+
+.black {
+    background-color: #000000;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.bhead {
+    background-color: #000000;
+}
+

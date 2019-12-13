@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CGV</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/mohammed.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <header class="container-fluid w-100">
+        <div class="row mx-auto w-75 div text-center mt-3">
+            <div class="col-md-4 col-xl-4 col-lg-4 mb-3">
+                <a href="index.html"><img class="img-responsive logo w-100" src="img/logo1.png" alt="All4Sport"></a>
+            </div>
+            <div id="searchbar" class="input-group md-form form-sm form-2 col-md-5 col-xl-4 col-lg-5 my-auto search">
+                <input class="form-control my-0 py-1 red-border mx-auto mt-lg-0" id="tags" type="text" placeholder="Recherche"
+                    aria-label="Search">
+                <div class="input-group-append ">
+                    <a href="" class="input-group-text red lighten-3 bg" id="basic-text1"><i
+                            class="fas fa-search text-dark" aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="col-xl-4 col-md-3 col-lg-3 my-auto icone">
+                <div class="text-center mt-lg-0 font mt-3 mt-md-0">
+                    <a class="iconeblack pr-lg-3" href="cart.html"><i class="fas fa-shopping-cart fa-2x icn"
+                            title="Panier"></i></a>
+                    <a class="iconeblack pl-lg-3" href="connexion.html"><i class="fas fa-sign-in-alt fa-2x"
+                            title="Connexion"></i></a>
+                    <i class="iconeblack fas fa-search fa-2x logosearch" aria-hidden="true"></i>
+                </div>
+            </div>
+        </div>
+        <nav class="wrapper">
+            <div class="mega_menu">
+                <ul class="monul">
+                    <li class="menuresp">
+                        Menu
+                        <i class="fas fa-x fa-bars ml-3"></i>
+                    </li>
+                    <li><a href="index.html" class="menuli togglemenu">Home</a></li>
+
+                    <li><a href="basket.html" class="menuli togglemenu">Basket-ball</a>
+                        <div class="sous_menu row">
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Chaussures</h3>
+                                <p class="my-2">Hommes</p>
+                                <p class="my-2">Femmes</p>
+                                <p class="my-2">Enfants</p>
+                                <h3 class="my-2">Vétements</h3>
+                                <p class="my-2">Hommes</p>
+                                <p class="my-2">Femmes</p>
+                                <p class="my-2">Enfants</p>
+                            </div>
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Accessoires</h3>
+                                <p class="my-2">Filets</p>
+                                <p class="my-2">Ballons</p>
+                                <p class="my-2">Sacs</p>
+                                <p class="my-2">Bandeaux</p>
+                            </div>
+                            <div class="coli imagemenu col-md-4">
+                                <img src="img/img19.jpg" alt="">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="football.html" class="menuli togglemenu">Football</a>
+                        <div class="sous_menu middlesubmenu row">
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Chaussures</h3>
+                                <p class="my-2">Hommes</p>
+                                <p class="my-2">Femmes</p>
+                                <p class="my-2">Enfants</p>
+                            </div>
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Vétements</h3>
+                                <p class="my-2">Hommes</p>
+                                <p class="my-2">Femmes</p>
+                                <p class="my-2">Enfants</p>
+                            </div>
+                            <div class="coli imagemenu col-md-4">
+                                <img src="img/img23.jpg" alt="foot">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="golf.html" class="menuli togglemenu">Golf</a>
+                        <div class="sous_menu middlesubmenu2 row ">
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Chaussures</h3>
+                                <p class="my-2">Hommes</p>
+                                <p class="my-2">Femmes</p>
+                                <p class="my-2">Enfants</p>
+                                <h3 class="my-2">Vétements</h3>
+                                <p class="my-2">Hommes</p>
+                                <p class="my-2">Femmes</p>
+                                <p class="my-2">Enfants</p>
+                            </div>
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Accessoires</h3>
+                                <p class="my-2">Club</p>
+                                <p class="my-2">Balles</p>
+                                <p class="my-2">Sacs</p>
+                                <p class="my-2">Gants</p>
+                            </div>
+                            <div class="coli imagemenu col-md-4">
+                                <img src="img/img60.jpg" alt="golf">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="equitation.html" class="menuli togglemenu">Equitation</a>
+                        <div class="sous_menu row lastsubmenu">
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Chaussures</h3>
+                                <p class="my-2">Hommes</p>
+                                <p class="my-2">Femmes</p>
+                                <p class="my-2">Enfants</p>
+                            </div>
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Vétements</h3>
+                                <p class="my-2">Hommes</p>
+                                <p class="my-2">Femmes</p>
+                                <p class="my-2">Enfants</p>
+                            </div>
+                            <div class="coli imagemenu col-md-4">
+                                <img src="img/img61.jpg" alt="equitation">
+                            </div>
+                        </div>
+                    </li>
+                    <li><a href="natation.html" class="menuli togglemenu">Natation</a>
+                        <div class="sous_menu row lastsubmenu">
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Maillots de bain</h3>
+                                <p class="my-2">Hommes</p>
+                                <p class="my-2">Femmes</p>
+                                <p class="my-2">Enfants</p>
+                            </div>
+                            <div class="coli col-12 col-md-4">
+                                <h3 class="my-2">Accessoires</h3>
+                                <p class="my-2">Palmes</p>
+                                <p class="my-2">Tubas</p>
+                                <p class="my-2">Lunettes</p>
+                                <p class="my-2">Planches</p>
+                            </div>
+                            <div class="coli imagemenu col-md-4">
+                                <img src="img/img62.jpg" alt="natation">
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container-fluid">
+        <div class="w80 w100 mx-auto text-center mb-3 bg-white">
+            <div class="mt-2 textblack my-2">
+                <h1 class="mx-2">
+                    Conditions d’utilisation :
+                </h1>
+                <p class="my-2">
+                    Ce site (<a href="http://www.a4s.com">www.a4s.com</a>) est proposé en différents langages web (HTML,
+                    HTML5, Javascript, CSS, etc…) pour un meilleur confort d'utilisation et un graphisme plus agréable,
+                    nous
+                    vous recommandons de recourir à des navigateurs modernes comme Internet explorer, Safari, Firefox,
+                    Google Chrome, etc…
+                    Les mentions légales ont été générées sur le site <a
+                        title="générateur de mentions légales pour site internet gratuit"
+                        href="http://www.generateur-de-mentions-legales.com">Générateur de mentions légales</a>, offert
+                    par
+                    <a title="imprimerie paris, imprimeur paris" href="http://welye.com">Welye</a>.
+                </p>
+            </div>
+
+            <div class="mt-2 textblack my-2">
+                <p class="my-2">
+                    TOM met en œuvre tous les moyens dont elle dispose, pour assurer une information fiable et une mise
+                    à
+                    jour fiable de ses sites internet. Toutefois, des erreurs ou omissions peuvent survenir.
+                    L'internaute
+                    devra donc s'assurer de l'exactitude des informations auprès de , et signaler toutes modifications
+                    du
+                    site qu'il jugerait utile. n'est en aucun cas responsable de l'utilisation faite de ces
+                    informations, et
+                    de tout préjudice direct ou indirect pouvant en découler.
+                </p>
+            </div>
+
+            <div class="mt-2 textblack my-2">
+                <p class="my-2">
+                    Cookies : Le site <a href="http://www.a4s.com">www.a4s.com</a> peut-être amené à vous demander
+                    l’acceptation des cookies pour des besoins de statistiques et d'affichage. Un cookies est une
+                    information déposée sur votre disque dur par le serveur du site que vous visitez. Il contient
+                    plusieurs
+                    données qui sont stockées sur votre ordinateur dans un simple fichier texte auquel un serveur accède
+                    pour lire et enregistrer des informations . Certaines parties de ce site ne peuvent être
+                    fonctionnelles
+                    sans l’acceptation de cookies.
+                </p>
+            </div>
+
+            <div class="mt-2 textblack my-2">
+                <p class="my-2">
+                    Liens hypertextes : Les sites internet de peuvent offrir des liens vers d’autres sites internet ou
+                    d’autres ressources disponibles sur Internet. TOM ne dispose d'aucun moyen pour contrôler les sites
+                    en
+                    connexion avec ses sites internet. ne répond pas de la disponibilité de tels sites et sources
+                    externes,
+                    ni ne la garantit. Elle ne peut être tenue pour responsable de tout dommage, de quelque nature que
+                    ce
+                    soit, résultant du contenu de ces sites ou sources externes, et notamment des informations, produits
+                    ou
+                    services qu’ils proposent, ou de tout usage qui peut être fait de ces éléments. Les risques liés à
+                    cette
+                    utilisation incombent pleinement à l'internaute, qui doit se conformer à leurs conditions
+                    d'utilisation.
+                </p>
+            </div>
+
+            <div class="mt-2 textblack my-2">
+                <p class="my-2">
+                    Les utilisateurs, les abonnés et les visiteurs des sites internet de ne peuvent mettre en place un
+                    hyperlien en direction de ce site sans l'autorisation expresse et préalable de TOM.
+                </p>
+            </div>
+
+            <div class="mt-2 textblack my-2">
+                <p class="my-2">
+                    Dans l'hypothèse où un utilisateur ou visiteur souhaiterait mettre en place un hyperlien en
+                    direction
+                    d’un des sites internet de TOM, il lui appartiendra d'adresser un email accessible sur le site afin
+                    de
+                    formuler sa demande de mise en place d'un hyperlien. TOM se réserve le droit d’accepter ou de
+                    refuser un
+                    hyperlien sans avoir à en justifier sa décision.
+                </p>
+            </div>
+
+
+            <div class="accordion" id="accordionExample">
+                <div class="card">
+                    <div class="card-header" id="headingOne">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed text-danger text-decoration-none fonttitle" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Services fournis :
+                            </button>
+                        </h2>
+                    </div>
+
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p class="my-2">L'ensemble des activités de la société ainsi que ses informations sont
+                                présentés
+                                sur notre site <a href="http://www.a4s.com">www.a4s.com</a>.</p>
+                            <p class="my-2">TOM s’efforce de fournir sur le site www.a4s.com des informations aussi
+                                précises
+                                que possible. les
+                                renseignements figurant sur le site <a href="http://www.a4s.com">www.a4s.com</a> ne sont
+                                pas
+                                exhaustifs
+                                et les photos non contractuelles. Ils sont donnés sous réserve de modifications ayant
+                                été
+                                apportées
+                                depuis leur mise en ligne. Par ailleurs, tous les informations indiquées sur le site
+                                www.a4s.com<span>
+                                    sont données à titre indicatif, et sont susceptibles de changer ou d’évoluer sans
+                                    préavis. </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingTwo">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed text-danger text-decoration-none fonttitle" type="button" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Limitation contractuelles sur les données :
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p class="my-2">
+                                Les informations contenues sur ce site sont aussi précises que possible et le site remis
+                                à
+                                jour à
+                                différentes périodes de l’année, mais peut toutefois contenir des inexactitudes ou des
+                                omissions. Si
+                                vous constatez une lacune, erreur ou ce qui parait être un dysfonctionnement, merci de
+                                bien
+                                vouloir le
+                                signaler par email, à l’adresse contact@a4s.com, en décrivant le problème de la manière
+                                la
+                                plus précise
+                                possible (page posant problème, type d’ordinateur et de navigateur utilisé, …).
+                            </p>
+
+                            <p class="my-2">
+                                Tout contenu téléchargé se fait aux risques et périls de l'utilisateur et sous sa seule
+                                responsabilité.
+                                En conséquence, ne saurait être tenu responsable d'un quelconque dommage subi par
+                                l'ordinateur de
+                                l'utilisateur ou d'une quelconque perte de données consécutives au téléchargement. De
+                                plus,
+                                l’utilisateur du site s’engage à accéder au site en utilisant un matériel récent, ne
+                                contenant pas de
+                                virus et avec un navigateur de dernière génération mis-à-jour
+                            </p>
+
+                            <p class="my-2">
+                                Les liens hypertextes mis en place dans le cadre du présent site internet en direction
+                                d'autres
+                                ressources présentes sur le réseau Internet ne sauraient engager la responsabilité de
+                                TOM.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingThree">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed text-danger text-decoration-none fonttitle" type="button" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Propriété intellectuelle :
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p class="my-2">
+                                Tout le contenu du présent sur le site <a href="http://www.a4s.com">www.a4s.com</a>,
+                                incluant, de
+                                façon
+                                non limitative, les graphismes, images, textes, vidéos, animations, sons, logos, gifs et
+                                icônes
+                                ainsi
+                                que leur mise en forme sont la propriété exclusive de la société à l'exception des
+                                marques, logos ou
+                                contenus appartenant à d'autres sociétés partenaires ou auteurs.
+                            </p>
+
+                            <p class="my-2">
+                                Toute reproduction, distribution, modification, adaptation, retransmission ou
+                                publication, même
+                                partielle, de ces différents éléments est strictement interdite sans l'accord exprès par
+                                écrit de
+                                TOM.
+                                Cette représentation ou reproduction, par quelque procédé que ce soit, constitue une
+                                contrefaçon
+                                sanctionnée par les articles L.335-2 et suivants du Code de la propriété intellectuelle.
+                                Le
+                                non-respect
+                                de cette interdiction constitue une contrefaçon pouvant engager la responsabilité civile
+                                et pénale
+                                du
+                                contrefacteur. En outre, les propriétaires des Contenus copiés pourraient intenter une
+                                action en
+                                justice
+                                à votre encontre.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFour">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed text-danger text-decoration-none fonttitle" type="button" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                Déclaration à la CNIL :
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFour" class="collapse" aria-labelledby="headingFour"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p class="my-2">
+                                Conformément à la loi 78-17 du 6 janvier 1978 (modifiée par la loi 2004-801 du 6 août
+                                2004 relative
+                                à la
+                                protection des personnes physiques à l'égard des traitements de données à caractère
+                                personnel)
+                                relative
+                                à l'informatique, aux fichiers et aux libertés, ce site n'a pas fait l'objet d'une
+                                déclaration
+                                auprès de
+                                la Commission nationale de l'informatique et des libertés (<a
+                                    href="http://www.cnil.fr/">www.cnil.fr</a>).
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header" id="headingFive">
+                        <h2 class="mb-0">
+                            <button class="btn btn-link collapsed text-danger text-decoration-none fonttitle" type="button" data-toggle="collapse"
+                                data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                Litiges :
+                            </button>
+                        </h2>
+                    </div>
+                    <div id="collapseFive" class="collapse" aria-labelledby="headingFive"
+                        data-parent="#accordionExample">
+                        <div class="card-body">
+                            <p class="my-2">
+                                Les présentes conditions du site <a href="http://www.a4s.com">www.a4s.com</a> sont
+                                régies par les
+                                lois
+                                françaises et toute contestation ou litiges qui pourraient naître de l'interprétation ou
+                                de
+                                l'exécution
+                                de celles-ci seront de la compétence exclusive des tribunaux dont dépend le siège social
+                                de la
+                                société.
+                                La langue de référence, pour le règlement de contentieux éventuels, est le français.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="container-fluid">
+        <div class="row backnews">
+            <div class="input-group mx-auto my-2 newsletter">
+                <input type="text" class="form-control" placeholder="Abonnez-vous à la newsletter">
+                <div class="input-group-prepend">
+                    <button class="input-group-text" id="inputGroup-sizing-default">Je m'abonne !</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mx-auto d-flex justify-content-center">
+            <div class="containlist col-12 col-md-4 col-lg-3 col-xl-2 mylist h-75 mt-2">
+                <ul class="list-unstyled">
+                    <h4><a href="" class="hidden-sm-down">Catégories</a><i class="fas fa-bars"></i></h4>
+                    <div class="pl-md-3 listli text-left mt-2">
+                        <li><a href="football.html">Football</a></li>
+                        <li><a href="basket.html">Basketball</a></li>
+                        <li><a href="golf.html">Golf</a></li>
+                        <li><a href="natation.html">Natation</a></li>
+                        <li><a href="equitation.html">Équitation</a></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="containlist col-12 col-md-4 col-lg-3 col-xl-2 mylist h-75 mt-2">
+                <ul class="list-unstyled">
+                    <h4><a href="" class="hidden-sm-down">À propos de A4S</a><i class="fas fa-bars"></i></h4>
+                    <div class="pl-md-3 listli text-left mt-2">
+                        <li><a href="qui-sommes-nous.html">Qui sommes nous</a></li>
+                        <li><a href="conditions-general.html">CGV</a></li>
+                        <li><a href="mentions-legales.html">Mention légales</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="containlist col-12 col-md-4 col-lg-3 col-xl-2 mylist h-75 mt-2">
+                <ul class="list-unstyled">
+                    <h4><a href="customer-infos.html" class="hidden-sm-down">Mon compte</a><i class="fas fa-bars"></i></h4>
+                    <div class="pl-md-3 listli text-left mt-2">
+                        <li><a href="customer-order.html">Mes commandes</a></li>
+                        <li><a href="#">Produits favoris</a></li>
+                        <li><a href="customer-address.html">Mes adresses</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-3 text-center my-auto">
+                <div class="d-inline-block iconsocial">
+                    <i class="fab fa-facebook fa-3x m-2 facebook"></i>
+                    <i class="fab fa-linkedin fa-3x m-2 linkedin"></i>
+                    <i class="fab fa-twitter fa-3x m-2 twitter"></i>
+                </div>
+            </div>
+            <p class="text-light text-center col-xl-12 mt-3">© 2019 ALL4S</p>
+        </div>
+
+
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+        </script>
+    <script src="https://kit.fontawesome.com/a2bab1df4f.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous">
+        </script>
+    <script src="js/main.js"></script>
+    <script src="js/mohammed.js"></script>
+</body>
+
+</html>

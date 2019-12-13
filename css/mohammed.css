@@ -1,0 +1,133 @@
+.w80 {
+    width: 80%;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.priceproduct {
+    font-size: 1.4em;
+    color: black;
+    font-weight: 600;
+}
+
+.indextitleproduct a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.list-productnews {
+    display: none;
+}
+
+.list-productbest {
+    display: none;
+}
+
+.buttonprom {
+    border-radius: 3px 0 0 3px !important;
+    border-right: 1px solid black;
+}
+
+.buttonbest {
+    border-radius: 0 3px 3px 0 !important;
+    border-left: 1px solid black;
+}
+
+.imgcarind {
+    min-height: 180px;
+}
+
+@media screen and (max-width:575px) {
+    .w100 {
+        width: 100% !important;
+    }
+
+    .w25 {
+        width: 25% !important;
+    }
+}
+
+.selectedbutton {
+    color: white !important;
+    background-color: black !important;
+}
+
+.btn:focus,
+.btn:active {
+    box-shadow: none;
+}
+
+.less,
+.more, .less2, .more2 {
+    cursor: pointer;
+    font-size: 1.5em;
+}
+
+@media screen and (max-width:575px) {
+    
+}
+
+@media screen and (max-width:767px) {
+    .w50 {
+        width: 50% !important;
+    }
+    .unitprice {
+        display: none !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .w100 {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .w100 {
+        width: 100% !important;
+    }
+}
+
+.infoproduct {
+    width: 140px;
+}
+
+.img-min {
+    min-width: 100px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    display: none;
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.brad{
+    border-radius:3px;
+}
+
+.paymentlist{
+    display: none;
+}
+
+.fa-arrow-circle-down{
+    cursor: pointer;
+}
+
+.bgblack{
+    background-color: black;
+}
+
+.textblack {
+    color: black;
+}
+
+.fonttitle{
+    font-size: 0.7em;
+}
+
+

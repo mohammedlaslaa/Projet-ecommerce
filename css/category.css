@@ -1,0 +1,94 @@
+.w-80 {
+    width: 80%;
+}
+
+.image {
+    width: 250px;
+    height: auto;
+    border: solid 2px black;
+    margin-bottom: 2px;
+}
+
+.bloc_gauche {
+    border: grey solid 1px;
+}
+
+.rounded-circle {
+    width: 15px;
+    height: 15px;
+}
+
+.rounded-circle:hover {
+    cursor: pointer;
+}
+
+.figure-caption {
+    color: black;
+}
+
+.madiv{
+    background-color: rgba(102, 101, 101, 0.5);
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+    display: none;
+}
+
+.figure{
+    position: relative;
+    cursor: pointer;
+}
+
+.panier {
+    margin-left: -7px;
+    width: 50px;
+    height: auto;
+    margin-top: 30%;
+}
+
+.imagedetail {
+    width: 400px;
+    height: auto;
+    border: solid 2px black;
+    margin-bottom: 2px;
+}
+
+.imgcontain{
+    position: absolute;
+    z-index: 1000 !important;
+    width: 75%;
+}
+
+.imgzoom{
+    display: none;
+    width: 60%;
+}
+.imagedetail1 {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+}
+
+h2 {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 375px) {
+    .ligne1, .ligne2 {display: none;}
+}
+
+@media screen and (max-width: 991px) {
+    .w-80 {justify-content: center;}
+}
+
+@media screen and (max-width: 544px) {
+.bloc_gauche{
+    display: none;
+}
+}
+.message {
+    background-color: white;
+    height: 800px;
+}

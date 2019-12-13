@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    background: url(https://static.makeuseof.com/wp-content/uploads/2017/07/Mail-Merge-Featured-670x335.png) top fixed;
+    background-size: cover;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    background-repeat: no-repeat;
+}
+
+.img {
+    size: cover;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+
+.contact-form {
+    width: 85%;
+    max-width: 600px;
+    background: #f1f1f1;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 20px #000000b3;
+}
+
+.contact-form h1 {
+    margin-top: 0;
+    font-weight: 200;
+}
+
+.txbt {
+    border: 1px solid gray;
+    margin: 8px 0;
+    padding:12px 8px;
+    border-radius: 8px;
+}
+
+.txbt label {
+    display: block;
+    text-align: left;
+    color: #333;
+    text-transform: uppercase;
+    font-size: 14px;
+
+}
+
+.txbt input, .txbt textarea{
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
+
+}
+
+.btn {
+    display: block;
+    background: #9b59b6;
+    padding: 14px 0;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 8px;
+    width: 100%
+}

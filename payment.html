@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mohammed.css">
+    <title>A4S</title>
+</head>
+
+<body id="background_opacity">
+    <header class="container-fluid w-100">
+        <div class="row mx-auto w-75 div text-center mt-3">
+            <div class="col-md-4 col-xl-4 col-lg-4 mb-3">
+                <a href="index.html"><img class="img-responsive logo w-100" src="img/logo1.png" alt="All4Sport"></a>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main class="container-fluid mt-5">
+        <!-- Tunnel d'achat -->
+        <div class="row w80 w100 mx-auto d-flex justify-content-center text-center mb-3">
+            <div class="col-12 col-md-4 py-1 border-right bg-white cartstep">1/ Panier</div>
+            <div class="col-12 col-md-4 py-1 border-right bg-white ">2/ Livraison</div>
+            <div class="col-12 col-md-4 py-1 text-white bg-dark">3/ Paiement</div>
+            <p class="col-12 bg-info text-white p-2">Choisissez votre méthode de paiement</p>
+            <div class="col-12 bg-white p-0">
+                <form action="">
+                    <table class="table mytablecart table-bordered w-100 my-0">
+                        <thead>
+                            <tr class="row mx-auto">
+                                <th class="col-12">Méthode de paiement</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+
+                            <tr class="row mx-auto">
+                                <td class="col-8 border-top-0 row w-100 m-0 border-right-0">
+                                    <div class="col-12 mx-0 text-center col-md-6">
+                                        <img src="img/cb.jpg" class="img-responsive img-min w-25 w50" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
+                                        <p>Paiement sécurisé par carte bancaire</p>
+
+                                    </div>
+                                </td>
+                                <td
+                                    class="col-4 d-flex align-items-center justify-content-center pricecart border-top-0 border-left-0">
+                                    <i class="fas fa-2x fa-arrow-circle-down"></i>
+                                </td>
+                            </tr>
+                            <tr class="row mx-auto paymentlist">
+                                <td class="col-12 border-top-0 m-0 border-right-0">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-12 col-md-5 col-lg-4 text-md-center text-left">
+                                            <label for="">Numéro de carte :</label>
+                                            <input class="brad" type="number" min="0000000000000000"
+                                                max="9999999999999999">
+                                        </div>
+                                        <div class="col-12 col-md-4 col-lg-3 text-md-center text-left">
+                                            <label for="">Date d'expiration :</label>
+                                            <input class="brad" type="number" min="0000" max="9999">
+                                        </div>
+                                        <div class="col-12 col-md-3 col-lg-3 text-md-center text-left">
+                                            <label for="">Code :</label>
+                                            <input class="brad" type="number" min="000" max="999">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row mx-auto">
+                                <td class="col-8 border-top-0 row w-100 m-0 border-right-0">
+                                    <div class="col-12 mx-0 text-center col-md-6">
+                                        <img src="img/paypal.jpg" class="img-responsive img-min w-25 w50" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
+                                        <p>Paiement sécurisé via paypal</p>
+
+                                    </div>
+                                </td>
+                                <td
+                                    class="col-4 d-flex align-items-center justify-content-center pricecart border-top-0 border-left-0">
+                                    <i class="fas fa-2x fa-arrow-circle-down"></i>
+                                </td>
+                            </tr>
+                            <tr class="row mx-auto paymentlist">
+                                <td class="col-12 border-top-0 m-0 border-right-0">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-12 text-md-center text-left">
+                                            <label for="">Identifiant Paypal :</label>
+                                            <input class="brad" type="text" size="20">
+                                        </div>
+                                        <div class="col-12 text-md-center text-left">
+                                            <label for="">Mot de passe :</label>
+                                            <input class="brad" type="text" size="20">
+                                        </div>
+                                        <div class="col-12 text-md-center text-left">
+                                            <button type="button" class="btn btn-primary">Payer</button>
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            <tr class="row mx-auto">
+                                <td class="col-8 border-top-0 row w-100 m-0 border-right-0">
+                                    <div class="col-12 mx-0 text-center col-md-6">
+                                        <img src="img/transfer.jpg" class="img-responsive img-min w-25 w50" alt="">
+                                    </div>
+                                    <div class="col-12 col-md-6 d-flex justify-content-center flex-column">
+                                        <p>Paiement par virement bancaire</p>
+
+                                    </div>
+                                </td>
+                                <td
+                                    class="col-4 d-flex align-items-center justify-content-center pricecart border-top-0 border-left-0">
+                                    <i class="fas fa-2x fa-arrow-circle-down"></i>
+                                </td>
+                            </tr>
+                            <tr class="row mx-auto paymentlist">
+                                <td class="col-12 border-top-0 m-0 border-right-0">
+                                    <div class="row d-flex justify-content-center">
+                                        <div class="col-12 col-lg-4 text-left">
+                                            <label for="">Titulaire :</label>
+                                            <input class="brad" type="text" size="25">
+                                        </div>
+                                        <div class="col-12 col-lg-3 text-left">
+                                            <label for="">IBAN :</label>
+                                            <input class="brad" type="number" min="0000000000000000"
+                                                max="9999999999999999">
+                                        </div>
+                                        <div class="col-12 col-lg-3 text-left">
+                                            <label for="">BIC :</label>
+                                            <input class="brad" type="text" size="15">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                    <div class="col-12 my-3 row m-0">
+                        <div class="col-6 text-left col-sm-4">
+                            <a href="delivery.html">
+                                <button type="button" class="btn btn-danger"><i
+                                        class="mr-2 fas fa-arrow-circle-left"></i>
+                                    Livraison
+                                </button> </a>
+                        </div>
+
+                        <div class="col-6 text-right col-sm-4 offset-sm-4">
+                            <a href="order-detail.html">
+                                <button type="button" class="btn btn-danger"> Valider<i
+                                        class=" ml-2 fas fa-arrow-circle-right"></i>
+                                </button></a>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+    <footer class="container-fluid">
+        <div class="row backnews">
+            <div class="input-group mx-auto my-2 newsletter">
+                <input type="text" class="form-control" placeholder="Abonnez-vous à la newsletter">
+                <div class="input-group-prepend">
+                    <button class="input-group-text" id="inputGroup-sizing-default">Je m'abonne !</button>
+                </div>
+
+            </div>
+        </div>
+        <div class="row mx-auto d-flex justify-content-center">
+            <div class="containlist col-12 col-md-4 col-lg-3 col-xl-2 mylist h-75 mt-2">
+                <ul class="list-unstyled">
+                    <h4><a href="" class="hidden-sm-down">Catégories</a><i class="fas fa-bars"></i></h4>
+                    <div class="pl-md-3 listli text-left mt-2">
+                        <li><a href="football.html">Football</a></li>
+                        <li><a href="basket.html">Basketball</a></li>
+                        <li><a href="golf.html">Golf</a></li>
+                        <li><a href="natation.html">Natation</a></li>
+                        <li><a href="equitation.html">Équitation</a></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="containlist col-12 col-md-4 col-lg-3 col-xl-2 mylist h-75 mt-2">
+                <ul class="list-unstyled">
+                    <h4><a href="" class="hidden-sm-down">À propos de A4S</a><i class="fas fa-bars"></i></h4>
+                    <div class="pl-md-3 listli text-left mt-2">
+                        <li><a href="qui-sommes-nous.html">Qui sommes nous</a></li>
+                        <li><a href="conditions-general.html">CGV</a></li>
+                        <li><a href="mentions-legales.html">Mention légales</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </div>
+                </ul>
+            </div>
+
+            <div class="containlist col-12 col-md-4 col-lg-3 col-xl-2 mylist h-75 mt-2">
+                <ul class="list-unstyled">
+                    <h4><a href="customer-infos.html" class="hidden-sm-down">Mon compte</a><i class="fas fa-bars"></i></h4>
+                    <div class="pl-md-3 listli text-left mt-2">
+                        <li><a href="customer-order.html">Mes commandes</a></li>
+                        <li><a href="#">Produits favoris</a></li>
+                        <li><a href="customer-address.html">Mes adresses</a></li>
+                    </div>
+                </ul>
+            </div>
+            <div class="col-12 col-sm-12 col-lg-3 text-center my-auto">
+                <div class="d-inline-block iconsocial">
+                    <i class="fab fa-facebook fa-3x m-2 facebook"></i>
+                    <i class="fab fa-linkedin fa-3x m-2 linkedin"></i>
+                    <i class="fab fa-twitter fa-3x m-2 twitter"></i>
+                </div>
+            </div>
+            <p class="text-light text-center col-xl-12 mt-3">© 2019 ALL4S</p>
+        </div>
+
+
+    </footer>
+
+    <!--- SCRIPT --->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://kit.fontawesome.com/a2bab1df4f.js" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <script src="js/main.js"></script>
+    <script src="js/mohammed.js"></script>
+</body>
+
+</html>

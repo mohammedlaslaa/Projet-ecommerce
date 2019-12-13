@@ -1,0 +1,11 @@
+https://coolors.co/1a535c-04eddd-ffffff-ff1919-000000
+
+<link href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed&display=swap" rel="stylesheet">
+
+font-family: 'Barlow Semi Condensed', sans-serif;
+
+VIDEOOOO
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ke9EZ2AC9-A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+https://www.jqueryscript.net/menu/sticky-responsive-mega-menu.html
